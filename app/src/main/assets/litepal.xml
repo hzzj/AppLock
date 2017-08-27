@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="lock"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.example.administrator.applock.bean.CommonLockInfo"/>
+        <mapping class="com.example.administrator.applock.bean.FaviterInfo"/>
+        <mapping class="com.example.administrator.applock.bean.LockPrivate"/>
+    </list>
+    <storage value="external"/>
+</litepal>
